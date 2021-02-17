@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>exercice-5 / Victor LEDEZ</title>
+  </head>
+  <body>
+    <!-- Goal if the exercise -->
+    <div class="exercise">
+      <h1>Exercice numero 5 / Victor LEDEZ</h1>
+      <p class="description">
+        Vous devez réaliser un formulaire avec les champs : “nom”, “prénom”,
+        “email”, “password”. Vous devez contrôler chaque champs à l’aide de la
+        classe Regex (native à js). La validation du formulaire devra
+        s’effectuer avec un bouton. Vous devez afficher les erreurs pour chaque
+        champs. Pour construire une Regex utilisez : https://regexr.com/.
+        L’intégralité du formulaire doit être en HTML. Vous devez indiquez les
+        erreurs et la validation pour chaque champs.
+      </p>
+    </div>
+    <!-- End: Goal if the exercise -->
+
+    <form action="" method="POST" id="form">
+      <label for="userName">Nom</label>
+      <input type="text" id="userName" />
+      <small></small>
+      <br />
+
+      <label for="userSurname">Prenom</label>
+      <input type="text" id="userSurname" />
+      <small></small>
+      <br />
+
+      <label for="userMail">Email</label>
+      <input type="email" id="userMail" />
+      <small></small>
+      <br />
+
+      <label for="userPassword">Mot de passe</label>
+      <input type="password" id="userPassword" />
+      <small></small>
+      <br />
+
+      <button type="submit">Valider</button>
+    </form>
+
+    <!-- Link to JS code -->
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
